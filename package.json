@@ -1,0 +1,29 @@
+{
+  "name": "@zkencrypt/examples",
+  "version": "1.0.0",
+  "description": "Example applications for ZKEncrypt Network",
+  "private": true,
+  "scripts": {
+    "install:all": "npm run install:basic && npm run install:token && npm run install:auction",
+    "install:basic": "cd basic-fhe && npm install",
+    "install:token": "cd confidential-token && npm install",
+    "install:auction": "cd private-auction && npm install",
+    "test": "npm run test:basic && npm run test:token",
+    "test:basic": "cd basic-fhe && npm test",
+    "test:token": "cd confidential-token && npm test"
+  },
+  "keywords": [
+    "zkencrypt",
+    "examples",
+    "fhe",
+    "privacy",
+    "blockchain",
+    "tutorials"
+  ],
+  "author": "ZKEncrypt AI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZKEncrypt-AI/zkencrypt-examples.git"
+  }
+}
