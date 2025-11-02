@@ -1,4 +1,4 @@
-# ZKEncrypt Examplesd
+# ZKEncrypt Examples
 
 Example applications and tutorials for building with ZKEncrypt Network. Learn how to integrate FHE privacy into your dApps.
 
